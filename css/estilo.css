@@ -7,4 +7,27 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Salsa', cursive;
 }
-p{ font-family: 'Salsa', cursive;}
+p{
+	font-family: 'Salsa', cursive;
+}
+img {
+	/*visibility: hidden;*/
+}
+div#frase {
+	clear: both;
+	display: none;
+	font-family: 'Great Vibes', cursive;
+	font-size: 35px;
+	padding-top: 15px;
+	text-align: center;
+}
+section div {
+	text-align: center;
+	width: 50%;
+}
+div.izquierda {
+	float: left;
+}
+div.derecha {
+	float: right;
+}
