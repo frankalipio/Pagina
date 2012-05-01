@@ -1,3 +1,6 @@
 body {
 	margin: 20px;
+	background-image: url("../img/texture.png");
+	color: #444446;
+    font: 13px/18px Arial,Helvetica,sans-serif;
 }
