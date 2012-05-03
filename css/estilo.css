@@ -13,6 +13,25 @@ p{
 img {
 	/*visibility: hidden;*/
 }
+/*========== HEADER =============*/
+header{
+	text-align: center;
+}
+nav ul li{
+	display: inline-block;
+	margin-right:20px;
+}
+
+/*========== SECTION =============*/
+section{
+	margin-bottom:30px;
+	overflow:hidden;
+}
+section img{
+	width:280px;
+	height:350px;
+}
+
 div#frase {
 	clear: both;
 	display: none;
