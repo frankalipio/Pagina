@@ -1,17 +1,15 @@
 body {
-	margin: 20px;
 	background-image: url("../img/texture.png");
 	color: #444446;
-    font: 13px/18px Arial,Helvetica,sans-serif;
+    font: 13px/18px Arial, Helvetica, sans-serif;
+	margin: 20px;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Salsa', cursive;
 }
 p{
 	font-family: 'Salsa', cursive;
-}
-img {
-	/*visibility: hidden;*/
 }
 /*========== HEADER =============*/
 header{
@@ -19,17 +17,17 @@ header{
 }
 nav ul li{
 	display: inline-block;
-	margin-right:20px;
+	margin-right: 20px;
 }
 
 /*========== SECTION =============*/
 section{
-	margin-bottom:30px;
-	overflow:hidden;
+	margin-bottom: 30px;
+	overflow: hidden;
 }
 section img{
-	width:280px;
-	height:350px;
+	height: 350px;
+	width: 280px;
 }
 
 div#frase {
