@@ -46,14 +46,23 @@ div.izquierda {
 	float: left;
 }
 div.izquierda img:hover {
+	-moz-transform: scale(1.2); /* Escala sin animación */
+	-o-transform: scale(1.2); /* Escala sin animación */
+	-webkit-transform: scale(1.2); /* Escala sin animación */
 	transform: scale(1.2); /* Escala sin animación */
 }
 div.derecha {
 	float: right;
 }
 div.derecha img {
-	transition: all .2s ease-in-out; /* Escala con animación xD */
+	-moz-transition: -moz-transform .2s ease-in-out; /* Escala con animación xD */
+	-o-transition: -o-transform .2s ease-in-out; /* Escala con animación xD */
+	-webkit-transition: -webkit-transform .2s ease-in-out; /* Escala con animación xD */
+	transition: transform .2s ease-in-out; /* Escala con animación xD */
 }
 div.derecha img:hover {
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
 	transform: scale(1.2);
 }
